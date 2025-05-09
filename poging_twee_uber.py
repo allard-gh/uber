@@ -16,7 +16,7 @@ def calc(dist, service, dest):
     print(f'Je ritprijs van {dist}km naar {dest}, met Uber {service}, kost €{price}')
 
 while uber_calc:
-    name = input('Voer je gebruikersnaam in\n')
+    name = input('Voer je gebruikersnaam in \n')
     if name in users:
         go_fav = input(f'Wil je met {users[name]["fav_uber"]} naar {users[name]["fav_dest"]} reizen? (j/n) \n')
         if go_fav == 'j':
